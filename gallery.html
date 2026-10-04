@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>Gallery | Flourish Salon By Aqsa Danish — Karachi Salon Gallery</title>
+    <meta name="description" content="View our gallery of beauty work at Flourish Salon in Karachi — bridal makeup, hair styling, facial treatments, salon interior and more." />
+    <link rel="canonical" href="https://www.flourishsalon.com.pk/gallery.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gallery | Flourish Salon By Aqsa Danish" />
+    <meta property="og:description" content="Beauty work gallery — bridal, hair, makeup, skincare and salon interior." />
+    <meta property="og:url" content="https://www.flourishsalon.com.pk/gallery.html" />
+    <meta property="og:image" content="https://images.pexels.com/photos/15507425/pexels-photo-15507425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="/" class="logo" aria-label="Flourish Salon home">
+          <img src="/favicon.svg" alt="" class="logo__mark" width="42" height="42" />
+          <span class="logo__text"><span class="logo__name">Flourish</span><span class="logo__tagline">By Aqsa Danish</span></span>
+        </a>
+        <ul class="nav__menu" role="menubar">
+          <li role="none"><a href="/" class="nav__link" role="menuitem">Home</a></li>
+          <li role="none"><a href="/about.html" class="nav__link" role="menuitem">About</a></li>
+          <li class="nav__item--dropdown" role="none">
+            <a href="/services.html" class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <span class="nav__dropdown-icon" aria-hidden="true">▾</span></a>
+            <div class="nav__dropdown" role="menu" aria-label="Services submenu">
+              <a href="/services.html" class="nav__dropdown-link" role="menuitem">All Services</a>
+              <a href="/service-detail.html?service=bridal-makeup" class="nav__dropdown-link" role="menuitem">Bridal Makeup</a>
+              <a href="/service-detail.html?service=hair-styling" class="nav__dropdown-link" role="menuitem">Hair Styling</a>
+              <a href="/service-detail.html?service=facial-treatment" class="nav__dropdown-link" role="menuitem">Facial Treatments</a>
+              <a href="/service-detail.html?service=party-makeup" class="nav__dropdown-link" role="menuitem">Party Makeup</a>
+            </div>
+          </li>
+          <li role="none"><a href="/gallery.html" class="nav__link" role="menuitem">Gallery</a></li>
+          <li role="none"><a href="/contact.html" class="nav__link" role="menuitem">Contact</a></li>
+          <li role="none" class="nav__cta"><a href="/contact.html" class="btn btn--primary">Book Now</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+      </nav>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+      <a href="/" class="mobile-menu__link">Home</a>
+      <a href="/about.html" class="mobile-menu__link">About</a>
+      <a href="/services.html" class="mobile-menu__link">Services</a>
+      <a href="/service-detail.html?service=bridal-makeup" class="mobile-menu__link mobile-menu__sub">Bridal Makeup</a>
+      <a href="/service-detail.html?service=hair-styling" class="mobile-menu__link mobile-menu__sub">Hair Styling</a>
+      <a href="/service-detail.html?service=facial-treatment" class="mobile-menu__link mobile-menu__sub">Facial Treatments</a>
+      <a href="/service-detail.html?service=party-makeup" class="mobile-menu__link mobile-menu__sub">Party Makeup</a>
+      <a href="/gallery.html" class="mobile-menu__link">Gallery</a>
+      <a href="/contact.html" class="mobile-menu__link">Contact</a>
+      <div class="mobile-menu__cta"><a href="/contact.html" class="btn btn--primary btn--block btn--lg">Book Appointment</a></div>
+    </div>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="page-hero__bg">
+          <img src="https://images.pexels.com/photos/15507425/pexels-photo-15507425.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920" alt="Bridal hair updo styled at Flourish Salon" />
+        </div>
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content">
+          <span class="page-hero__eyebrow">Our Work</span>
+          <h1 class="page-hero__title">Gallery</h1>
+          <p class="page-hero__text">A showcase of the artistry and care at Flourish Salon. Browse our collection of beauty work.</p>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> Gallery</nav>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <span class="eyebrow animate-on-scroll" style="text-align:center;display:block;">Browse</span>
+          <h2 class="section-title animate-on-scroll">Our Portfolio</h2>
+          <div class="divider animate-on-scroll"><span>&#10047;</span></div>
+          <p class="section-subtitle animate-on-scroll">Filter by category to explore specific services</p>
+
+          <!-- Filters -->
+          <div class="gallery-filters animate-on-scroll" role="tablist" aria-label="Gallery filters">
+            <button class="gallery-filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="gallery-filter" data-filter="bridal" role="tab" aria-selected="false">Bridal</button>
+            <button class="gallery-filter" data-filter="hair" role="tab" aria-selected="false">Hair</button>
+            <button class="gallery-filter" data-filter="makeup" role="tab" aria-selected="false">Makeup</button>
+            <button class="gallery-filter" data-filter="skincare" role="tab" aria-selected="false">Facial &amp; Skin Care</button>
+            <button class="gallery-filter" data-filter="interior" role="tab" aria-selected="false">Salon Interior</button>
+            <button class="gallery-filter" data-filter="nails" role="tab" aria-selected="false">Nails &amp; Beauty</button>
+          </div>
+
+          <!-- Gallery Grid -->
+          <div class="gallery-grid gallery-grid--large">
+            <div class="gallery-item" data-category="bridal">
+              <img src="https://images.pexels.com/photos/19220072/pexels-photo-19220072.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bride receiving makeup touch-up before wedding ceremony" loading="lazy" />
+              <div class="gallery-item__overlay">Bridal</div>
+            </div>
+            <div class="gallery-item gallery-item--tall" data-category="bridal">
+              <img src="https://images.pexels.com/photos/36102603/pexels-photo-36102603.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="South Asian bride in traditional red bridal attire with intricate jewelry" loading="lazy" />
+              <div class="gallery-item__overlay">Bridal</div>
+            </div>
+            <div class="gallery-item" data-category="bridal">
+              <img src="https://images.pexels.com/photos/28941551/pexels-photo-28941551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bride in traditional attire gazing into an ornate mirror" loading="lazy" />
+              <div class="gallery-item__overlay">Bridal</div>
+            </div>
+            <div class="gallery-item" data-category="bridal">
+              <img src="https://images.pexels.com/photos/6435273/pexels-photo-6435273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="South Asian bride getting ready with elegant jewelry and makeup" loading="lazy" />
+              <div class="gallery-item__overlay">Bridal</div>
+            </div>
+            <div class="gallery-item" data-category="hair">
+              <img src="https://images.pexels.com/photos/3331486/pexels-photo-3331486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Hairstylist creating an elegant hairstyle in a salon" loading="lazy" />
+              <div class="gallery-item__overlay">Hair</div>
+            </div>
+            <div class="gallery-item" data-category="hair">
+              <img src="https://images.pexels.com/photos/15507425/pexels-photo-15507425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Professional bridal hair updo styled for a wedding" loading="lazy" />
+              <div class="gallery-item__overlay">Hair</div>
+            </div>
+            <div class="gallery-item" data-category="hair">
+              <img src="https://images.pexels.com/photos/3065170/pexels-photo-3065170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Stylist crafting an intricate updo hairstyle" loading="lazy" />
+              <div class="gallery-item__overlay">Hair</div>
+            </div>
+            <div class="gallery-item" data-category="hair">
+              <img src="https://images.pexels.com/photos/3993320/pexels-photo-3993320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Stylist applying hair colour to a client" loading="lazy" />
+              <div class="gallery-item__overlay">Hair</div>
+            </div>
+            <div class="gallery-item" data-category="makeup">
+              <img src="https://images.pexels.com/photos/6954005/pexels-photo-6954005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Makeup artist applying eyeshadow to a client" loading="lazy" />
+              <div class="gallery-item__overlay">Makeup</div>
+            </div>
+            <div class="gallery-item" data-category="makeup">
+              <img src="https://images.pexels.com/photos/7290119/pexels-photo-7290119.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Close-up of vibrant eyeshadow being applied with a brush" loading="lazy" />
+              <div class="gallery-item__overlay">Makeup</div>
+            </div>
+            <div class="gallery-item" data-category="makeup">
+              <img src="https://images.pexels.com/photos/13933220/pexels-photo-13933220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Makeup artist applying lipstick to a model" loading="lazy" />
+              <div class="gallery-item__overlay">Makeup</div>
+            </div>
+            <div class="gallery-item" data-category="skincare">
+              <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Woman enjoying a soothing facial treatment at a spa" loading="lazy" />
+              <div class="gallery-item__overlay">Facial &amp; Skin Care</div>
+            </div>
+            <div class="gallery-item" data-category="skincare">
+              <img src="https://images.pexels.com/photos/12115040/pexels-photo-12115040.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Beautician applying a facial mask to a client" loading="lazy" />
+              <div class="gallery-item__overlay">Facial &amp; Skin Care</div>
+            </div>
+            <div class="gallery-item" data-category="skincare">
+              <img src="https://images.pexels.com/photos/6663600/pexels-photo-6663600.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Woman using a facial roller in a skincare routine" loading="lazy" />
+              <div class="gallery-item__overlay">Facial &amp; Skin Care</div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+              <img src="https://images.pexels.com/photos/13068377/pexels-photo-13068377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Chic modern beauty salon interior with black and white decor" loading="lazy" />
+              <div class="gallery-item__overlay">Salon Interior</div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+              <img src="https://images.pexels.com/photos/7195809/pexels-photo-7195809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="White reception counter with flowers in a beauty salon" loading="lazy" />
+              <div class="gallery-item__overlay">Salon Interior</div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+              <img src="https://images.pexels.com/photos/7750114/pexels-photo-7750114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Contemporary salon interior with mirrors and luxurious seating" loading="lazy" />
+              <div class="gallery-item__overlay">Salon Interior</div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+              <img src="https://images.pexels.com/photos/7750124/pexels-photo-7750124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bright hair salon interior with round mirrors" loading="lazy" />
+              <div class="gallery-item__overlay">Salon Interior</div>
+            </div>
+            <div class="gallery-item" data-category="nails">
+              <img src="https://images.pexels.com/photos/5484948/pexels-photo-5484948.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="Close-up of a manicure with detailed nail art" loading="lazy" />
+              <div class="gallery-item__overlay">Nails &amp; Beauty</div>
+            </div>
+            <div class="gallery-item" data-category="nails">
+              <img src="https://images.pexels.com/photos/14267565/pexels-photo-14267565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Manicurist filing nails during a professional manicure" loading="lazy" />
+              <div class="gallery-item__overlay">Nails &amp; Beauty</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section section--light">
+        <div class="cta-banner">
+          <div class="cta-banner__bg"><img src="https://images.pexels.com/photos/7750108/pexels-photo-7750108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" loading="lazy" /></div>
+          <div class="cta-banner__overlay"></div>
+          <div class="cta-banner__content animate-on-scroll">
+            <h2 class="cta-banner__title">Like What You See?</h2>
+            <p class="cta-banner__text">Book your appointment and let us create your next beautiful look.</p>
+            <div class="cta-banner__actions">
+              <a href="/contact.html" class="btn btn--light btn--lg">Book Appointment</a>
+              <a href="/services.html" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.5); color: #fff;">View Services</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+      <button class="lightbox__close" aria-label="Close image viewer">&times;</button>
+      <button class="lightbox__nav lightbox__prev" aria-label="Previous image">&#8249;</button>
+      <img class="lightbox__img" src="" alt="" />
+      <button class="lightbox__nav lightbox__next" aria-label="Next image">&#8250;</button>
+      <p class="lightbox__caption"></p>
+    </div>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="/" class="logo"><img src="/favicon.svg" alt="" class="logo__mark" width="42" height="42" /><span class="logo__text"><span class="logo__name">Flourish</span><span class="logo__tagline">By Aqsa Danish</span></span></a>
+            <p>Premier beauty salon in North Nazimabad, Karachi. Bridal makeup, hair, beauty and skincare services crafted with passion and precision.</p>
+          </div>
+          <div class="footer-col"><h4>Quick Links</h4><div class="footer-links"><a href="/">Home</a><a href="/about.html">About</a><a href="/services.html">Services</a><a href="/gallery.html">Gallery</a><a href="/contact.html">Contact</a></div></div>
+          <div class="footer-col"><h4>Services</h4><div class="footer-links"><a href="/services.html">All Services</a><a href="/gallery.html">Gallery</a><a href="/contact.html">Book Appointment</a></div></div>
+          <div class="footer-col footer-contact"><h4>Get in Touch</h4><p>Block H, North Nazimabad Town</p><p>Karachi, 74600, Pakistan</p><p><a href="tel:+922136644878">+92 21 36644878</a></p><div class="footer-social"><a href="https://www.facebook.com/FlourishSalon1" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a></div></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; <span data-year>2026</span> Flourish Salon By Aqsa Danish. All rights reserved.</p><p>Beauty Salon in North Nazimabad, Karachi</p></div>
+      </div>
+    </footer>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
